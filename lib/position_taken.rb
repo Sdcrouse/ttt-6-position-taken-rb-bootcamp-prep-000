@@ -5,5 +5,5 @@ def position_taken? (board, index)
     #true
   #end
   
-  
+  board[index] != " " || board[index] != "" || board[index] != nil
 end
